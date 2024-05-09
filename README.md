@@ -5,6 +5,8 @@ GET http://localhost:8080/api/ccustomer => endpoint za dohvrat svih korisnika
 
 POST http://localhost:8080/api/customer => endpoint za kreiranje novog korisnika
 
+req:{"_username":"boris"}
+
 GET http://localhost:8080/api/customer/stats?start_date={start_data}&{end_date} => endpoint za kreiranje statistike
 
 GET http://localhost:8080/api/cart => endpoint za dohvrat svih cart
