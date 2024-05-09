@@ -11,9 +11,9 @@ POST http://localhost:8080/api/cart  => endpoint za kreiranje carta
 req:{"_customer_id":"123.123","_cart_items":[{ "_product_id":"1212","_price_id":"3232-212","_action":"ADD"}]}
 DELETE http://localhost:8080/api/cart?id={cart_id}  => endpoint za brisanje carta i pripadajućig itema
 
-POST http://localhost:8080/api/cart => endpint za dodavnje novog cart itema
+POST http://localhost:8080/api/cart-item => endpint za dodavnje novog cart itema
 req: {"_cart_id":"123-123","_product_id":"1212","_price_id":"3232-212","_action":"ADD"}
-DELETE http://localhost:8080/api/cart?id={cart_item_id} => endpint za brisanje cart itema
+DELETE http://localhost:8080/api/cart-item?id={cart_item_id} => endpint za brisanje cart itema
 
 
 
