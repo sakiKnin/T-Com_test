@@ -1,7 +1,7 @@
 docker compose build
 docker compose up
 
-GET http://localhost:8080/api/ccustomer => endpoint za dohvrat svih korisnika
+GET http://localhost:8080/api/ccustomer => endpoint za dohvat svih korisnika
 
 POST http://localhost:8080/api/customer => endpoint za kreiranje novog korisnika
 
